@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background: rgba(128, 128, 128, 0.447); */
+	background-image: url('https://source.unsplash.com/1600x900/?weather');
+	background-size: cover;
+}
+
+.card {
+	color: white;
+    background: #222e2ed7;
+    padding: 40px;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 400px;
+    min-width: 310px;
+    margin: 20px;
+}
+
+.search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.search input{
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+	border: none;
+	outline: none;
+	background: rgba(155, 138, 138, 0.502);
+	font-size: 120%;
+	font-weight: bold;
+	color: white;
+}
+
+.search button{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+	padding: 10px;
+	color: rgba(255, 255, 255);
+	background:#7c7c7c2b;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+
+/* --------CHECK AND FIX THIS-------- */
+/* 
+button: hover{
+	color: rgba(255, 255, 255, 0.8);
+} */
+
+
+.cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.weather{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+}
+
+.temp{
+	font-size: 150%;;
+	font-weight: bold;
+	margin: 20px;
+}
